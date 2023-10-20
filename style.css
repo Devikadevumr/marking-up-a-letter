@@ -1,3 +1,4 @@
+
 body {
   max-width: 800px;
   margin: 0 auto;
@@ -21,16 +22,4 @@ p,ul,ol,dl,address {
 
 p, li, dd, dt, address {
   line-height: 1.5;
-}
-
-abbr:focus::before {
-  display: inline-block;
-  position: absolute;
-  visibility: visible;
-  outline: none;
-  content: "(" attr(title) ")";
-  line-height: 1em;
-  margin-top: -1.1em;
-  padding: .1em;
-  background-color: Khaki;
 }
